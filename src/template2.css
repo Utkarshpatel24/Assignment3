@@ -31,6 +31,9 @@ a:hover{
     overflow: hidden;
     
 }
+.row{
+    display: flex;
+}
 .left{
 
     width:60%;
@@ -44,8 +47,8 @@ a:hover{
 .right{
     width:35%;
     padding-left: 1%;
-    padding-right: 1%;
-    padding-bottom:20em;
+    padding-right: 2%;
+   
     background-color: lightgray;
     box-sizing:initial;
     float:right;
