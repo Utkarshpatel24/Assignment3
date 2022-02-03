@@ -1,0 +1,16 @@
+ul{
+    list-style-type: none;
+    overflow: hidden;
+}
+#link li {
+    float: right;
+    
+    
+}
+
+a{
+    padding: 14px 16px;
+}
+#header h1{
+padding-left:40px;
+}
