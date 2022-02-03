@@ -130,3 +130,27 @@ padding-left:40px;
     
 }
 
+
+
+
+.footer{
+    overflow: hidden;
+    
+}
+.left{
+    width:46%;
+    padding-left:3%;
+    /*padding-right: 10px;*/
+    float:left;
+    /*background-color: white;*/
+    overflow: hidden;
+}
+
+.right{
+    width:46%;
+    padding-right: 3%;
+    text-align: right;
+   
+    
+    float:right;
+}
