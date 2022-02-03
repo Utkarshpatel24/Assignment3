@@ -3,3 +3,24 @@
     padding:20px;
     background-color: lightgray;
 }
+ul{
+    list-style-type:none ;
+    margin: 0%;
+    padding: 0%;
+    background-color: black;
+    overflow: hidden;
+}
+li{
+    float: left;
+    border-right:1px solid #bbb;
+}
+a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: green;
+}
