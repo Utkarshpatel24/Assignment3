@@ -3,6 +3,7 @@
     padding:20px;
     background-color: lightgray;
 }
+
 ul{
     list-style-type:none ;
     margin: 0%;
@@ -24,31 +25,50 @@ a{
 a:hover{
     background-color: green;
 }
+
 .container{
     margin-left: 0%;
     overflow: hidden;
+    
 }
 .left{
 
     width:60%;
-    padding-left: 26px;
+    padding-left: 2%;
     /*padding-right: 10px;*/
     float:left;
     /*background-color: white;*/
+    overflow: hidden;
 }
 
 .right{
     width:35%;
-    padding: 20px;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-bottom:20em;
     background-color: lightgray;
-    height: 100vh;
-    float: right;
+    box-sizing:initial;
+    float:right;
 }
+
 .col h1{
+    color: rgb(15, 94, 126);
+    padding-bottom: 0%;
+    margin-bottom: 0%;
+}
+.col h3{
     color: rgb(15, 94, 126);
     padding-bottom: 0%;
     margin-bottom: 0%;
 }
 .col p{
     margin-top: 0%;
+}
+#footer {
+    margin: 0%;
+    padding: 10px;
+    padding-right: 20px;
+    border:1px solid rgb(222, 222, 222);
+    background-color: lightgray;
+    text-align: right;
 }
